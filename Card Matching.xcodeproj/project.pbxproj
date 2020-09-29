@@ -56,15 +56,23 @@
 		FA376F692523810100822A66 /* Card Matching */ = {
 			isa = PBXGroup;
 			children = (
-				FA376F6A2523810100822A66 /* AppDelegate.swift */,
-				FA376F6C2523810100822A66 /* SceneDelegate.swift */,
+				FA376F7E252381DE00822A66 /* Supporting Files */,
 				FA376F6E2523810100822A66 /* ViewController.swift */,
 				FA376F702523810100822A66 /* Main.storyboard */,
-				FA376F732523810700822A66 /* Assets.xcassets */,
-				FA376F752523810700822A66 /* LaunchScreen.storyboard */,
 				FA376F782523810700822A66 /* Info.plist */,
 			);
 			path = "Card Matching";
+			sourceTree = "<group>";
+		};
+		FA376F7E252381DE00822A66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA376F6A2523810100822A66 /* AppDelegate.swift */,
+				FA376F6C2523810100822A66 /* SceneDelegate.swift */,
+				FA376F732523810700822A66 /* Assets.xcassets */,
+				FA376F752523810700822A66 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
