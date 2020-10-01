@@ -18,6 +18,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var flipCountLabel: UILabel!
     @IBOutlet var cardButtons: [UIButton]!
+    
+    lazy var game = CardMatching(numberOfPairsOfCards: (cardButtons.count + 1) / 2)
+    
     var emojiChoices : [String] = ["🎃", "👻", "🎃", "👻"]
     
     @IBAction func touchCard(_ sender: UIButton) {
